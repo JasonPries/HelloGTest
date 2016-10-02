@@ -5,7 +5,7 @@ compiler:
   - gcc
 
 before_install:
-  - pip install cpp-coveralls
+  - pip install --user cpp-coveralls
 
 script:
   - mkdir build
