@@ -5,7 +5,10 @@ compiler:
   - gcc
 
 before_install:
-  - pip install --user cpp-coveralls
+  - pip install cpp-coveralls
 
 script:
-  - cmake .
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
