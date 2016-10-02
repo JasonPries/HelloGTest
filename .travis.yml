@@ -5,7 +5,8 @@ compiler:
   - gcc
 
 before_install:
-  - pip install --user cpp-coveralls
+  - pip install --JasonPries cpp-coveralls
 
 script:
-  - ./configure --enable-gcov && cmake .
+  - ./configure --enable-gcov
+  - cmake .
