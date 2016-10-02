@@ -8,4 +8,4 @@ before_install:
   - pip install --user cpp-coveralls
 
 script:
-  - cmake .
+  - ./configure --enable-gcov && cmake .
