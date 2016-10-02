@@ -13,7 +13,7 @@ TEST(basic_check, test_neq) {
     EXPECT_NE(1.0,0.0);
 }
 
-TEST(basic_check, test_slope_eq_1) {
+TEST(basic_check, test_y) {
     Line l0 = Line(1.0,0.0);
 
     EXPECT_DOUBLE_EQ(0.0,l0.y(0.0));
