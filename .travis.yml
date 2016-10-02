@@ -5,5 +5,4 @@ compiler:
   - gcc
 
 script:
-  - cd HelloGTest
-  - cmake .. && make
+  - cmake
