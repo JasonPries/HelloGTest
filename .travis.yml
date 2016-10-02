@@ -8,7 +8,5 @@ before_install:
   - pip install --user cpp-coveralls
 
 script:
-  - mkdir build
-  - cd build
-  - cmake ..
+  - cmake .
   - make
