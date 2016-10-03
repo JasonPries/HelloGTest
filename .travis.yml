@@ -21,6 +21,5 @@ script:
   - make
   - cd Line_Test/tests
   - ./run_tests
-  - cd .
-  - cd .
+  - cd -
   - ls
