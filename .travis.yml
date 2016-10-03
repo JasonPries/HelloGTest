@@ -21,8 +21,6 @@ script:
   - make
   - cd Line_Test/tests
   - ./run_tests
-  
-after_success:
-  -cd .
-  -cd .
-  -ls
+  - cd .
+  - cd .
+  - ls
