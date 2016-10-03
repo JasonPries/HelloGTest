@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Line_Test/lib/gtest/googletest/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Line_Test/lib/gtest/googletest/cmake/internal_utils.cmake" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Line_Test/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Line_Test/tests/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Line_Test/tests/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Line_Test/tests/line_tests.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Line/Line.hpp" isTestSource="false" />
