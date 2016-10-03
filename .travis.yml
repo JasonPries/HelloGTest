@@ -1,5 +1,12 @@
 language: cpp
 
+addons:
+  apt:
+    packages:
+      - cmake
+    sources:
+      - kalakris-cmake
+
 compiler:
   - clang
   - gcc
@@ -8,5 +15,8 @@ before_install:
   - pip install --user cpp-coveralls
 
 script:
-  - cmake .
+  - mkdir build
+  - cd build
+  - cmake ..
   - make
+  - ./run_tests
