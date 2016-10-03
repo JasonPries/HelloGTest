@@ -6,7 +6,7 @@
 #include "Line.hpp"
 
 TEST(basic_check, test_eq) {
-    EXPECT_DOUBLE_EQ(1.0,0.0);
+    EXPECT_DOUBLE_EQ(1.0,1.0);
 }
 
 TEST(basic_check, test_neq) {
