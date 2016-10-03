@@ -22,4 +22,4 @@ script:
   - cd Line_Test/tests
   - ./run_tests
   - cd -
-  - coveralls --gcov
+  - coveralls
