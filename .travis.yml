@@ -25,4 +25,6 @@ script:
   - ./run_tests
   
 after_success:
+  - cd -
+  - cd Line/CMakeFiles/Line.dir
   - coveralls
