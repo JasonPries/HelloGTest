@@ -2,7 +2,7 @@
 // Created by Jason on 10/1/2016.
 //
 
-#include "gtest/gtest.h"
+#include "../lib/gtest/googletest/include/gtest/gtest.h"
 #include "Line.hpp"
 
 TEST(basic_check, test_eq) {
