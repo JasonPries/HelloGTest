@@ -19,4 +19,6 @@ script:
   - cd build
   - cmake ..
   - make
+  - cd Line_Test/tests
   - ls
+  - ./run_tests
