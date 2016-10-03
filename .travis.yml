@@ -21,5 +21,6 @@ script:
   - make
   - cd Line_Test/tests
   - ./run_tests
-  - cd CMakeFiles/run_tests.dir
+  - cd -
+  - ls
   - coveralls
