@@ -1,5 +1,8 @@
 language: cpp
 
+install:
+  - gem install coveralls-lcov
+
 addons:
   apt:
     packages:
@@ -21,6 +24,10 @@ script:
   - make
   - cd Line_Test/tests
   - ./run_tests
+  
+after_success:
   - cd -
-  - ls
-  - coveralls
+  - lcov --directory . --capture --output-file coverage.info
+  - lcov --remove coverage.info 'tests/*' '/usr/*' --output-file coverage.info
+  - lcov --list coverage.info
+  - coveralls-lcov
